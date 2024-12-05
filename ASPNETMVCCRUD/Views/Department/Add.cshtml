@@ -1,0 +1,100 @@
+﻿@model ASPNETMVCCRUD.Models.DepartmentDomain.AddDepartmentViewModel
+
+<h1 style="text-align:center">Add Department</h1>
+
+
+
+<form method="post" asp-action="Add" enctype="multipart/form-data">
+
+  
+  <div class="mb-2">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name" asp-for="Name" />
+  </div>
+  <div class="text-danger">
+    @Html.ValidationMessageFor(model => model.Name)
+  </div>
+ 
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+
+
+<style>
+    /* Overall container for form */
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+      /* Form heading */
+      form h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+      }
+
+    /* Form label */
+    label.form-label {
+      font-weight: 600;
+      color: #555;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    /* Form input fields */
+    input.form-control {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+      /* Input focus styling */
+      input.form-control:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+      }
+
+    /* Button styling */
+    button.btn {
+      background-color: #28a745; /* Green color for active state */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      display: block;
+      margin: 0 auto; /* Centers the button */
+    }
+
+      /* Active button hover effect */
+      button.btn:hover {
+        background-color: #218838; /* Darker green on hover */
+      }
+
+      /* Inactive button styling (disabled state) */
+      button.btn:disabled {
+        background-color: #6c757d; /* Grey color for inactive state */
+        color: #fff;
+        cursor: not-allowed; /* Indicates the button is not clickable */
+        opacity: 0.65; /* Makes the button look faded */
+      }
+
+    /* Spacing for form elements */
+    .mb-2 {
+      margin-bottom: 1rem;
+    }
+
+
+</style>
+</form>

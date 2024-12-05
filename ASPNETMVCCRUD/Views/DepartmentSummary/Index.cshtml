@@ -1,0 +1,51 @@
+﻿@model IList<ASPNETMVCCRUD.Models.DepartmentSummary.DepartmentSummaryViewModel>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Department Summary</title>
+ 
+</head>
+<body>
+  <div class="container">
+    <h1 class="my-4">Department Summary</h1>
+
+    <table class="table table-bordered">
+      <thead style="background-color:#003366; color:white;">
+        <tr>
+          <th>Employee Name</th>
+          <th>Department Name</th>
+          <th>Status</th>
+          <th>Employee Count</th>
+          <th>Average Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        @foreach (var item in Model)
+        {
+          <tr>
+            <td>
+
+              @foreach (var employeeName in item.EmployeeName)
+              {
+                <div>@employeeName</div>
+              }
+            </td>
+            <td>@item.DepartmentName</td>
+            <td>@item.DepartmentStatus</td>
+            <td>@item.EmployeeCount</td>
+            <td>@item.AverageSalary</td> 
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+
+
+
+
+  
+</body>
+</html>

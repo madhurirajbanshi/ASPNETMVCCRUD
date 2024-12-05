@@ -1,0 +1,47 @@
+﻿@model ASPNETMVCCRUD.Models.UpdateViewModel
+
+<div>
+  <h1 style="text-align:center">Update Employee</h1>
+  <form method="post" asp-action="Update" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" /> <!-- Include hidden input for ID -->
+
+    <div class="mb-2">
+      <label for="" class="form-label">Name</label>
+      <input type="text" class="form-control" asp-for="Name" />
+    </div>
+    <div class="mb-2">
+      <label for="" class="form-label">Email</label>
+      <input type="text" class="form-control" asp-for="Email" />
+    </div>
+    <div class="mb-2">
+      <label for="" class="form-label">Salary</label>
+      <input type="number" class="form-control" asp-for="Salary" />
+    </div>
+    <div class="mb-2">
+      <label for="" class="form-label">Date of Birth</label>
+      <input type="date" class="form-control" asp-for="DateofBirth" />
+    </div>
+    <div class="mb-2">
+      <label for="Department" class="form-label">Department</label>
+      <select class="form-control" asp-for="SelectedDepartment" asp-items="@Model.Departments">
+        <option value="">-- Select Department --</option>
+      </select>
+    </div>
+    <div class="mb-2">
+      <label for="" class="form-label">Upload New Image</label>
+      <input type="file" asp-for="ImageFileName" accept=".jpg,.jpeg,.png" />
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.ExistingImagePath))
+    {
+      <div class="mb-2">
+        <label for="" class="form-label">Current Image</label>
+        <br />
+        <img src="@Model.ExistingImagePath" alt="Employee Image" style="max-width: 150px;" />
+      </div>
+    }
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+  </form>
+</div>
+

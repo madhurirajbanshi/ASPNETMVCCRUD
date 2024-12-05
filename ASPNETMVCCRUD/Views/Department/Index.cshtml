@@ -1,0 +1,132 @@
+﻿@model List<ASPNETMVCCRUD.Models.Domain.Department>
+
+<div>
+  <h1 style="text-align:center">Department List</h1>
+
+  <table class="table">
+    <thead style="background-color:#003366">
+      <tr>
+        <th>SN</th>
+        <th>Name</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      @{
+        long sn = 1;  // Start serial number at 1
+        foreach (var department in Model)
+        {
+          <tr>
+            <td>@sn</td>  <!-- Display serial number -->
+            <td>@department.Name</td>
+            <td>@department.Status</td>
+            <td>
+  <!-- Action Buttons -->
+  <div class="action-buttons">
+    <a asp-action="Update" asp-route-id="@department.Id" class="btn btn-success">Update</a>
+
+    @if (department.Status == "Active")
+    {
+      <!-- Deactivate Button -->
+      <form asp-action="Deactivate" asp-route-id="@department.Id" method="post" style="display:inline;">
+        <button type="submit" class="btn btn-secondary">Deactivate</button>
+      </form>
+    }
+    else
+    {
+      <!-- Activate Button -->
+      <form asp-action="Activate" asp-route-id="@department.Id" method="post" style="display:inline;">
+                    <button type="submit" class="btn btn-dark">Activate</button>
+      </form>
+    }
+
+    <form asp-action="Delete" asp-route-id="@department.Id" method="get" style="display:inline;">
+      <button type="submit" class="btn btn-primary">Delete</button>
+    </form>
+  </div>
+</td>
+
+          </tr>
+          sn++;  // Increment the serial number for each row
+        }
+      }
+    </tbody>
+  </table>
+
+  <style>
+    /* Table Styling */
+    .table {
+      width: 100%;
+      margin: 20px 0;
+      border-collapse: collapse;
+      background-color: #f9f9f9;
+    }
+
+      .table th, .table td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd;
+      }
+
+      .table th {
+        background-color: #003366;
+        color: white;
+        text-align: center;
+      }
+
+      .table td {
+        text-align: center;
+        vertical-align: middle; /* Ensures alignment for buttons */
+        background-color: #fff;
+      }
+
+    /* Action Buttons Container */
+    .action-buttons {
+      display: flex; /* Align buttons in a row */
+      justify-content: center; /* Center buttons horizontally */
+      gap: 10px; /* Space between buttons */
+      align-items: center; /* Vertically align buttons */
+    }
+
+    /* Individual Buttons */
+    .btn {
+      padding: 8px 16px;
+      font-size: 14px;
+      text-decoration: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    }
+
+      .btn-warning:hover {
+        background-color: #e0a800; /* Darker yellow */
+      }
+
+
+      .btn-danger:hover {
+        background-color: #c82333; /* Darker red */
+      }
+
+    .btn-success {
+      background-color: #28a745; /* Green for Active */
+      color: white;
+    }
+
+      .btn-success:hover {
+        background-color: #218838; /* Darker Green */
+      }
+
+    .btn-secondary {
+      background-color: #6c757d; /* Grey for Inactive */
+      color: white;
+    }
+
+      .btn-secondary:hover {
+        background-color: #5a6268; /* Darker Grey */
+      }
+  </style>
+
+</div>

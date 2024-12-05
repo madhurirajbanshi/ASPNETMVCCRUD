@@ -1,0 +1,118 @@
+﻿@model List< ASPNETMVCCRUD.Models.EmployeeViewModel>
+
+<div>
+  <h1>Employees</h1>
+
+  <table class="table">
+    <thead style="background-color:#003366">
+      <tr>
+        <th>SN</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Salary</th>
+        <th>Date of Birth</th>
+        <th>Department</th>
+        <th>Image</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      @{
+        long sn = 1;
+        foreach (var employee in Model)
+        {
+          <tr>
+            <td>@sn</td>
+            <td>@employee.Name</td>
+            <td>@employee.Email</td>
+            <td>@employee.Salary</td>
+            <td>@employee.DateofBirth.ToString("dd-MM-yyyy")</td>
+            <td>@employee.DepartmentName</td>
+            <td>
+              @if (!string.IsNullOrEmpty(employee.Base64Img))
+              {
+                <img src="@employee.Base64Img" alt="Employee Image" width="50" />
+              }
+            </td>
+            <td>
+              <div class="action-buttons">
+                <a asp-action="Update" asp-route-id="@employee.Id" class="btn btn-success">Update</a>
+                <a asp-action="Delete" asp-route-id="@employee.Id" class="btn btn-primary">Delete</a>
+              </div>
+            </td>
+          </tr>
+          sn++;
+        }
+      }
+    </tbody>
+  </table>
+
+  <style>
+    /* General Table Styles */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-family: Arial, sans-serif;
+    }
+
+    thead {
+      color: white;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #003366;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    /* Header Styles */
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #333;
+    }
+
+    /* Image Styling */
+    td img {
+      object-fit: cover;
+    }
+
+    /* Button Styles */
+    .btn {
+      padding: 8px 15px;
+      font-size: 14px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+      display: inline-block;
+      margin-right: 5px;
+    }
+
+    .btn-warning:hover {
+      background-color: #e0a800;
+      cursor: pointer;
+    }
+
+    .btn-danger:hover {
+      background-color: #c82333;
+      cursor: pointer;
+    }
+
+    /* Align action buttons in the same column */
+    .action-buttons {
+      display: flex;
+      gap: 10px;
+    }
+  </style>
+</div>

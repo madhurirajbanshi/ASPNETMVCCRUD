@@ -1,0 +1,341 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ASPNETMVCCRUD.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ASPNETMVCCRUD.zw6yhlhq6n.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\product\\28765f64-2f7f-4617-b53c-ac4093885b61.jpg",
+      "PackagePath": "staticwebassets\\product\\28765f64-2f7f-4617-b53c-ac4093885b61.jpg"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\product\\4a6a738a-8dff-4318-b26b-683eaab2321b.png",
+      "PackagePath": "staticwebassets\\product\\4a6a738a-8dff-4318-b26b-683eaab2321b.png"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\product\\Computer.png",
+      "PackagePath": "staticwebassets\\product\\Computer.png"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\product\\a0c325dc-633f-4f70-b183-24803c51a0d5.png",
+      "PackagePath": "staticwebassets\\product\\a0c325dc-633f-4f70-b183-24803c51a0d5.png"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\product\\phone.jpg",
+      "PackagePath": "staticwebassets\\product\\phone.jpg"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\uploads\\0877e3a7-eff3-4fd6-b09d-e940f9a7feab_IMG_20211126_204516.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0877e3a7-eff3-4fd6-b09d-e940f9a7feab_IMG_20211126_204516.jpg"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\uploads\\25a4cd92-fce9-4e1a-bcc0-d58863d9c594_Computer.png",
+      "PackagePath": "staticwebassets\\uploads\\25a4cd92-fce9-4e1a-bcc0-d58863d9c594_Computer.png"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\uploads\\26bc710d-5955-4eac-a073-d23a6bd37117_phone.jpg",
+      "PackagePath": "staticwebassets\\uploads\\26bc710d-5955-4eac-a073-d23a6bd37117_phone.jpg"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\uploads\\289252aa-5e4f-489e-a065-3e34ee713662_IMG_20211126_204516.jpg",
+      "PackagePath": "staticwebassets\\uploads\\289252aa-5e4f-489e-a065-3e34ee713662_IMG_20211126_204516.jpg"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\uploads\\548eb07b-01e3-4f51-b0bf-b62e0847f1ae_phone.jpg",
+      "PackagePath": "staticwebassets\\uploads\\548eb07b-01e3-4f51-b0bf-b62e0847f1ae_phone.jpg"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\uploads\\71fa1529-5efc-4380-843d-d86b6573c137_Computer.png",
+      "PackagePath": "staticwebassets\\uploads\\71fa1529-5efc-4380-843d-d86b6573c137_Computer.png"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\uploads\\7c80d149-7849-4773-9fc8-73277da9527a_IMG_20211126_204516.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7c80d149-7849-4773-9fc8-73277da9527a_IMG_20211126_204516.jpg"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\uploads\\7cce1975-63fa-476f-83f8-2511766011ac_phone.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7cce1975-63fa-476f-83f8-2511766011ac_phone.jpg"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\uploads\\bdf2bd4e-f83f-4e9c-83c9-d7f9bd94bf46_Computer.png",
+      "PackagePath": "staticwebassets\\uploads\\bdf2bd4e-f83f-4e9c-83c9-d7f9bd94bf46_Computer.png"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\uploads\\be70dd2f-d01c-4124-a360-86d76f523bee_IMG_20220117_165837.jpg",
+      "PackagePath": "staticwebassets\\uploads\\be70dd2f-d01c-4124-a360-86d76f523bee_IMG_20220117_165837.jpg"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\uploads\\e17fc028-1b98-4743-bdb7-d1ba898e4bcb_IMG_20211126_204516.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e17fc028-1b98-4743-bdb7-d1ba898e4bcb_IMG_20211126_204516.jpg"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\uploads\\ebec17ed-22f7-44e8-a3ad-2b16963d7268_Computer.png",
+      "PackagePath": "staticwebassets\\uploads\\ebec17ed-22f7-44e8-a3ad-2b16963d7268_Computer.png"
+    },
+    {
+      "Id": "D:\\ASPNETMVCCRUD\\ASPNETMVCCRUD\\wwwroot\\uploads\\f503a8a9-c4ea-453e-96df-8c6db050f8f0_IMG_20211126_204516.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f503a8a9-c4ea-453e-96df-8c6db050f8f0_IMG_20211126_204516.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ASPNETMVCCRUD.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ASPNETMVCCRUD.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ASPNETMVCCRUD.props",
+      "PackagePath": "build\\ASPNETMVCCRUD.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ASPNETMVCCRUD.props",
+      "PackagePath": "buildMultiTargeting\\ASPNETMVCCRUD.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ASPNETMVCCRUD.props",
+      "PackagePath": "buildTransitive\\ASPNETMVCCRUD.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

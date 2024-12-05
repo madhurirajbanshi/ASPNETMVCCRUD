@@ -1,0 +1,71 @@
+﻿@model ASPNETMVCCRUD.Models.DepartmentDomain.AddDepartmentViewModel
+
+<h1 style="text-align:center">Update Department</h1>
+
+<form method="post" asp-action="Update">
+
+  <input type="hidden" asp-for="Id" />
+
+  <div class="mb-2">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name" asp-for="Name" />
+  </div>
+  <div class="text-danger">
+    @Html.ValidationMessageFor(model => model.Name)
+  </div>
+
+  <button type="submit" class="btn btn-primary">Update</button>
+
+  <style>
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    label.form-label {
+        font-weight: 600;
+        color: #555;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    input.form-control {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    input.form-control:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+    button.btn {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        display: block;
+        margin: 0 auto;
+    }
+
+    button.btn:hover {
+        background-color: #0056b3;
+    }
+
+    .mb-2 {
+        margin-bottom: 1rem;
+    }
+  </style>
+</form>
